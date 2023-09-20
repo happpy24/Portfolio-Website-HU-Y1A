@@ -10,19 +10,54 @@
 </head>
 <body>
     <header>
-        
+        <nav class="navbar navbar-expand-lg py-3">
+            <div class="container">
+                <div id="navbarSupportedContent" class="collapse navbar-collapse">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item"><a href="/home" class="nav-link">Home</a></li>
+                        <li class="nav-item"><a href="/education" class="nav-link">Education</a></li>
+                        <li class="nav-item"><a href="/about" class="nav-link">About</a></li>
+                        <li class="nav-item"><a href="/projects" class="nav-link">Projects</a></li>
+                        <li class="nav-item"><a href="/contact" class="nav-link">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
     </header>
-    <div class="container">
-        <main role="main" class="pb-3">
-            @RenderBody()
-        </main>
+    <main role="main" class="pb-3">
+        @RenderBody()
+    </main>
+
+    <div class="footer-dark">
+        <footer>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3 item">
+                        <ul>
+                            <li><p>>>footer</p></li>
+                            <li><p>VSpeijer - H24™</p></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-3 item">
+                        <div class="col item social">
+                            <a href="https://www.facebook.com"><img src="~/img/icons/footerFacebook.png"></a>
+                            <a href="https://www.instagram.com"><img src="~/img/icons/footerInstagram.png"></a>
+                            <a href="https://www.tiktok.com"><img src="~/img/icons/footerTiktok.png"></a>
+                            <a href="https://www.twitter.com/happpy24"><img src="~/img/icons/footerTwitter.png"></a>
+                            <a href="https://www.youtube.com/watch?v=t1JYx8cuZ8g"><img src="~/img/icons/footerYoutube.png"></a>
+                        </div>
+                    </div>
+                    <div class="col-md-3 item text">
+                        <h3>redwizards.xyz</h3>
+                        <p>This webpage is ownership of Red Wizards.<br />Last updated: 3/6 2022</p>
+                    </div>
+                    
+                </div>
+                <p class="copyright">RedWizards - h24 &copy; 2022</p>
+            </div>
+        </footer>
     </div>
 
-    <footer class="border-top footer text-muted">
-        <div class="container">
-            &copy; 2023 - PortfolioWeb - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
-        </div>
-    </footer>
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>

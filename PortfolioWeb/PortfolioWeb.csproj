@@ -8,10 +8,9 @@
 
   <ItemGroup>
     <Content Remove="Views\Home\About.cshtml" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="wwwroot\img\" />
+    <Content Remove="Views\Home\Contact.cshtml" />
+    <Content Remove="Views\Home\Education.cshtml" />
+    <Content Remove="Views\Home\Projects.cshtml" />
   </ItemGroup>
 
   <ItemGroup>
@@ -23,6 +22,9 @@
   </ItemGroup>
 
   <ItemGroup>
+    <None Include="Views\Home\Contact.cshtml" />
+    <None Include="Views\Home\Projects.cshtml" />
+    <None Include="Views\Home\Education.cshtml" />
     <None Include="Views\Home\About.cshtml" />
   </ItemGroup>
 

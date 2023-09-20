@@ -1,0 +1,7 @@
+C:\Users\offic\Documents\Coding\asp.net\Portfolio-Website-HU-Y1A\PortfolioWeb\obj\Release\net6.0\PubTmp\Out\PortfolioWeb.exe
+C:\Users\offic\Documents\Coding\asp.net\Portfolio-Website-HU-Y1A\PortfolioWeb\obj\Release\net6.0\PubTmp\Out\appsettings.Development.json
+C:\Users\offic\Documents\Coding\asp.net\Portfolio-Website-HU-Y1A\PortfolioWeb\obj\Release\net6.0\PubTmp\Out\appsettings.json
+C:\Users\offic\Documents\Coding\asp.net\Portfolio-Website-HU-Y1A\PortfolioWeb\obj\Release\net6.0\PubTmp\Out\PortfolioWeb.dll
+C:\Users\offic\Documents\Coding\asp.net\Portfolio-Website-HU-Y1A\PortfolioWeb\obj\Release\net6.0\PubTmp\Out\PortfolioWeb.deps.json
+C:\Users\offic\Documents\Coding\asp.net\Portfolio-Website-HU-Y1A\PortfolioWeb\obj\Release\net6.0\PubTmp\Out\PortfolioWeb.runtimeconfig.json
+C:\Users\offic\Documents\Coding\asp.net\Portfolio-Website-HU-Y1A\PortfolioWeb\obj\Release\net6.0\PubTmp\Out\PortfolioWeb.pdb
