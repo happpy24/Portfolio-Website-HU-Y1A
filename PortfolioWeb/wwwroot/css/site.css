@@ -129,7 +129,7 @@ CONTAINERS
 
 .headline {
     position: absolute;
-    width: 47%;
+    width: 44%;
     top: 20%;
     left: -7%;
     border-radius: 1000px;
@@ -206,19 +206,34 @@ CONTAINERS
 
 .the-big-one {
     width: 100%;
-    height: calc(230vh - 10px);
     display: flex;
     align-items: center;
     justify-content: center;
     position: relative;
 }
 
-.line-container {
+.index-content {
+    height: calc(230vh - 10px);
+}
+
+.about-content {
+    height: calc(246vh - 10px)
+}
+
+.index-line-container {
     position: absolute;
+    top: -2%;
     left: 14.45%;
-    right: 14.45%; 
-    top: -75px;
-    height: auto; 
+    right: 14.45%;
+    height: auto;
+}
+
+.about-line-container {
+    position: absolute;
+    top: 6%;
+    left: 14.45%;
+    right: 14.45%;
+    height: auto;
 }
 
 /*INDEX*/
@@ -312,6 +327,16 @@ CONTAINERS
         .hu .beegbox-img.scrollcircle3 {
             width: 70%;
         }
+
+.about-intro {
+    top: 18%;
+    left: 25%;
+}
+
+.about-skills {
+    top: 44%;
+    right: 40%;
+}
 
 
 

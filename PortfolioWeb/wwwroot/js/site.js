@@ -21,7 +21,8 @@ $(function () {
 
 const scrollPath = document.getElementById('scroll-path');
 const lineLength = scrollPath.getTotalLength();
-const startOffset = 400;
+let startOffset = 400;
+let desiredCompletionPercentage = 100;
 let scrollPercentage = 0;
 var beegboximg = document.getElementsByClassName("beegbox-img");
 
@@ -39,25 +40,51 @@ window.addEventListener('scroll', () => {
         scrollPercentage = 0;
     }
 
-    if (document.title.includes("Home")) {
-        if (scrollPercentage > 19.23) {
-            $('.beegbox-img').addClass("scrollcircle1");
-        } else {
-            $('.beegbox-img').removeClass("scrollcircle1");
-        }
-        if (scrollPercentage > 45.21) {
-            $('.beegbox-img').addClass("scrollcircle2");
-        } else {
-            $('.beegbox-img').removeClass("scrollcircle2");
-        }
-        if (scrollPercentage > 79.17) {
-            $('.beegbox-img').addClass("scrollcircle3");
-        } else {
-            $('.beegbox-img').removeClass("scrollcircle3");
-        }
+    const scrollThresholds = {
+        Home: [19.23, 45.21, 79.17],
+        About: [50, 65]
+        // Education: [],
+        // Projects: [],
+        // Contact: []
+    };
+
+    const pageTitle = document.title;
+    let thresholds = [];
+    let desiredCompletionPercentage = 0;
+
+    switch (true) {
+        case pageTitle.includes("Home"):
+            thresholds = scrollThresholds.Home;
+            desiredCompletionPercentage = 100;
+            break;
+        case pageTitle.includes("About"):
+            thresholds = scrollThresholds.About;
+            desiredCompletionPercentage = 80;
+            break;
+        //case pageTitle.includes("Education"):
+        //    thresholds = scrollThresholds.NewPage;
+        //    desiredCompletionPercentage = 90;
+        //    break;
+        // Add more cases for additional pages as needed
     }
 
-    
+    const classToRemove = Array.from({ length: 8 }, (_, index) => `scrollcircle${index + 1}`);
 
-    scrollPath.style.strokeDashoffset = lineLength - (lineLength * (scrollPercentage / 100));
+    $('.beegbox-img').removeClass(classToRemove.join(" "));
+
+    if (thresholds) {
+        thresholds.forEach((threshold, index) => {
+            if (scrollPercentage > threshold) {
+                let classIndex = index + 1;
+                if (pageTitle.includes("About")) {
+                    classIndex += 3;
+                } else if (pageTitle.includes("NewPage")) {
+                    classIndex += 5;
+                }
+                $('.beegbox-img').addClass(`scrollcircle${classIndex}`);
+            }
+        });
+    }
+
+    scrollPath.style.strokeDashoffset = lineLength - (lineLength * (scrollPercentage / desiredCompletionPercentage));
 });
