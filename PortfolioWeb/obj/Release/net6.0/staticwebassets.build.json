@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "YRn8NxxBrHQxoFpiIfAqWz74gHOc9IuS3lscniU7T8g=",
+  "Hash": "wBKBB1H3rNu+1B2psW/nPoeRdXhmj1cfE+ldbX5lpCQ=",
   "Source": "PortfolioWeb",
   "BasePath": "_content/PortfolioWeb",
   "Mode": "Default",
@@ -51,12 +51,12 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
-      "Identity": "C:\\Users\\offic\\Documents\\Coding\\asp.net\\Portfolio-Website-HU-Y1A\\PortfolioWeb\\wwwroot\\img\\decodecodeco.png",
+      "Identity": "C:\\Users\\offic\\Documents\\Coding\\asp.net\\Portfolio-Website-HU-Y1A\\PortfolioWeb\\wwwroot\\img\\index\\hu1.png",
       "SourceId": "PortfolioWeb",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\offic\\Documents\\Coding\\asp.net\\Portfolio-Website-HU-Y1A\\PortfolioWeb\\wwwroot\\",
       "BasePath": "_content/PortfolioWeb",
-      "RelativePath": "img/decodecodeco.png",
+      "RelativePath": "img/index/hu1.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -65,15 +65,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\img\\decodecodeco.png"
+      "OriginalItemSpec": "wwwroot\\img\\index\\hu1.png"
     },
     {
-      "Identity": "C:\\Users\\offic\\Documents\\Coding\\asp.net\\Portfolio-Website-HU-Y1A\\PortfolioWeb\\wwwroot\\img\\figures.png",
+      "Identity": "C:\\Users\\offic\\Documents\\Coding\\asp.net\\Portfolio-Website-HU-Y1A\\PortfolioWeb\\wwwroot\\img\\index\\lusthof1.png",
       "SourceId": "PortfolioWeb",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\offic\\Documents\\Coding\\asp.net\\Portfolio-Website-HU-Y1A\\PortfolioWeb\\wwwroot\\",
       "BasePath": "_content/PortfolioWeb",
-      "RelativePath": "img/figures.png",
+      "RelativePath": "img/index/lusthof1.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -82,7 +82,41 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\img\\figures.png"
+      "OriginalItemSpec": "wwwroot\\img\\index\\lusthof1.png"
+    },
+    {
+      "Identity": "C:\\Users\\offic\\Documents\\Coding\\asp.net\\Portfolio-Website-HU-Y1A\\PortfolioWeb\\wwwroot\\img\\index\\smc1.png",
+      "SourceId": "PortfolioWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\offic\\Documents\\Coding\\asp.net\\Portfolio-Website-HU-Y1A\\PortfolioWeb\\wwwroot\\",
+      "BasePath": "_content/PortfolioWeb",
+      "RelativePath": "img/index/smc1.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\index\\smc1.png"
+    },
+    {
+      "Identity": "C:\\Users\\offic\\Documents\\Coding\\asp.net\\Portfolio-Website-HU-Y1A\\PortfolioWeb\\wwwroot\\img\\layout\\figures.png",
+      "SourceId": "PortfolioWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\offic\\Documents\\Coding\\asp.net\\Portfolio-Website-HU-Y1A\\PortfolioWeb\\wwwroot\\",
+      "BasePath": "_content/PortfolioWeb",
+      "RelativePath": "img/layout/figures.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\layout\\figures.png"
     },
     {
       "Identity": "C:\\Users\\offic\\Documents\\Coding\\asp.net\\Portfolio-Website-HU-Y1A\\PortfolioWeb\\wwwroot\\img\\vivi.jpg",

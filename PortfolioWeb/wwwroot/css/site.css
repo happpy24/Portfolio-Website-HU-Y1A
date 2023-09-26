@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
+@import "compass/css3";
 
 html {
     scroll-behavior: smooth;
@@ -147,14 +148,14 @@ CONTAINERS
 }
 
 .title-text {
-    top: 30%;
+    top: 32%;
     width: fit-content;
     font-size: 46px;
     text-shadow: 3px 3px 0px rgba(0, 0, 0, 0.25);
 }
 
 .sub-text {
-    top: 29%;
+    top: 32%;
     width: fit-content;
     font-size: 30px;
     color: #C8B9E9;
@@ -162,17 +163,29 @@ CONTAINERS
 }
 
 .sub-button {
-    top: 31%;
-    width: 460px;
-    height: 60px;
-    background-image: url('file:///C:\Users\offic\Downloads\decodecodeco.png');
-    background: #9265CE;
+    border: none;
+    color: white;
+    background-color: #9265CE;
+    padding: 5px 25%;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 24px;
+    top: 38%;
     box-shadow: 3px 3px 0px rgba(0, 0, 0, 0.25);
     border-radius: 10px;
+    cursor: pointer;
+    transition: all .2s ease-in-out;
 }
 
+    .sub-button:hover {
+        color: #f2f2f2;
+        transform: scale(1.05);
+    }
+
+
 .description-text {
-    top: 31%;
+    top: 35%;
     font-size: 24px;
     width: 50%;
     height: 15%;
@@ -208,21 +221,109 @@ CONTAINERS
     height: auto; 
 }
 
+/*INDEX*/
+
+.bo-title {
+    top: 140px;
+    position: absolute;
+}
+
+.bo-title-text {
+    font-size: 40px;
+    position: relative;
+    z-index: 5;
+    filter: drop-shadow(black 2px 2px 10px);
+}
+
+.bo-title-deco {
+    top: -3%;
+    position: absolute;
+    width: 200%;
+    left: -50%;
+    z-index: 1;
+}
+
+.beegbox {
+    position: absolute;
+}
+
+.beegbox-title {
+    font-size: 40px;
+}
+
+.beegbox-timestamp {
+    font-size: 16px;
+}
+
+.beegbox-content {
+    font-size 16px;
+}
+
+.beegbox-img {
+    position: absolute;
+    transition: width 0.5s;
+    transition-timing-function: ease-in-out;
+    text-align: center;
+}
+
+.lusthof {
+    top: 18%;
+    left: 25%;
+}
+
+    .lusthof .beegbox-img {
+        top: -10%;
+        left: 155%;
+        width: 0%;
+        text-align: center;
+    }
+
+        .lusthof .beegbox-img.scrollcircle1 {
+            width: 70%;
+            text-align: center;
+        }
+
+.smc {
+    top: 48%;
+    right: 33%;
+}
+
+    .smc .beegbox-img {
+        top: -10%;
+        right: 129.5%;
+        width: 0%;
+    }
+
+        .smc .beegbox-img.scrollcircle2 {
+            width: 70%;
+        }
+
+.hu {
+    top: 76%;
+    left: 25%;
+}
+
+    .hu .beegbox-img {
+        top: -10%;
+        left: 155%;
+        width: 0%;
+    }
+
+        .hu .beegbox-img.scrollcircle3 {
+            width: 70%;
+        }
+
+
+
 /* FOOTER */
+
 .footer-dark {
     padding: 50px 500px;
     color: #fff;
     background-color: #6E2DBD;
 }
 
-    .footer-dark h3 {
-        margin-top: 0;
-        margin-bottom: 12px;
-        font-weight: bold;
-        font-size: 16px;
-    }
-
-    .footer-dark ul {
+    .footer-dark .footul1 {
         padding: 0;
         list-style: none;
         line-height: 1.6;
@@ -230,21 +331,19 @@ CONTAINERS
         margin-bottom: 0;
     }
 
+    .footer-dark .footul2 {
+        padding: 0;
+        list-style: none;
+        line-height: 1.6;
+        font-size: 14px;
+        margin-bottom: 0;
+        display: inline;
+    }
+
     .footer-dark li {
         color: inherit;
         text-decoration: none;
-        opacity: 0.6;
     }
-
-        .footer-dark li a {
-            color: inherit;
-            text-decoration: none;
-            opacity: 0.8;
-        }
-
-            .footer-dark li a:hover {
-                opacity: 1.0;
-            }
 
 @media (max-width:767px) {
     .footer-dark .item:not(.social) {
@@ -269,33 +368,40 @@ CONTAINERS
 }
 
 .footer-dark .item.social {
+    display: flex;
+    width: 280px;
+    height: 32px;
+    align-content: space-between;
+}
+
+.footer-dark .svg-foot {
     text-align: center;
+    width: 32px;
+    height: 32px;
 }
 
 @media (max-width:991px) {
-    .footer-dark .item.social {
+    .footer-dark .svg-foot {
         text-align: center;
         margin-top: 20px;
     }
 }
 
-.footer-dark img {
-    font-size: 20px;
-    width: 36px;
-    height: 36px;
-    line-height: 36px;
-    display: inline-block;
-    text-align: center;
-    margin: 0 8px;
-    color: #fff;
-    opacity: 0.75;
+.footer-dark .item.contactfoot {
+    display: flex;
+    width: 280px;
+    height: 32px;
+    flex-direction: column;
+    align-content: space-between;
 }
 
-    .footer-dark img > a:hover {
-        opacity: 0.9;
-    }
+.footer-dark .svg-foot2 {
+    text-align: center;
+    width: 24px;
+    height: 24px;
+}
 
-.footer-dark .copyright {
+.footer-dark .konamicode {
     text-align: center;
     padding-top: 24px;
     opacity: 0.3;

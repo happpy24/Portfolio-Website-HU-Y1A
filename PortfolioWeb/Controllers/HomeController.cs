@@ -1,6 +1,11 @@
-﻿using Microsoft.AspNetCore.Mvc;
-using PortfolioWeb.Models;
+﻿using PortfolioWeb.Models;
 using System.Diagnostics;
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.RazorPages;
+using System.Diagnostics;
+using System.Security.Cryptography;
+using System.Text;
+
 
 namespace PortfolioWeb.Controllers
 {
@@ -18,21 +23,26 @@ namespace PortfolioWeb.Controllers
             return View();
         }
 
+        [Route("education")]
         public IActionResult Education()
         {
             return View();
         }
 
+        [Route("about")]
         public IActionResult About()
         {
+            System.Diagnostics.Debugger.Launch();
             return View();
         }
 
+        [Route("projects")]
         public IActionResult Projects()
         {
             return View();
         }
 
+        [Route("contact")]
         public IActionResult Contact()
         {
             return View();

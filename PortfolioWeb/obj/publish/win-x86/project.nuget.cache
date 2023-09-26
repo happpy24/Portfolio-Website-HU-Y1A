@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "3+39RZ8Gw3+a1zXgNOdCI/36ttLwudeAtIChR5Shwjj23ONuVBeN2GT6H0gF0/O81ZL2s9L32231lp298IWtNA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\offic\\Documents\\Coding\\asp.net\\Portfolio-Website-HU-Y1A\\PortfolioWeb\\PortfolioWeb.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\offic\\.nuget\\packages\\microsoft.netcore.app.runtime.win-x86\\6.0.22\\microsoft.netcore.app.runtime.win-x86.6.0.22.nupkg.sha512",
+    "C:\\Users\\offic\\.nuget\\packages\\microsoft.windowsdesktop.app.runtime.win-x86\\6.0.22\\microsoft.windowsdesktop.app.runtime.win-x86.6.0.22.nupkg.sha512",
+    "C:\\Users\\offic\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.win-x86\\6.0.22\\microsoft.aspnetcore.app.runtime.win-x86.6.0.22.nupkg.sha512"
+  ],
+  "logs": []
+}

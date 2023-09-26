@@ -9,12 +9,20 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "C:\\Users\\offic\\Documents\\Coding\\asp.net\\Portfolio-Website-HU-Y1A\\PortfolioWeb\\wwwroot\\img\\decodecodeco.png",
-      "PackagePath": "staticwebassets\\img\\decodecodeco.png"
+      "Id": "C:\\Users\\offic\\Documents\\Coding\\asp.net\\Portfolio-Website-HU-Y1A\\PortfolioWeb\\wwwroot\\img\\index\\hu1.png",
+      "PackagePath": "staticwebassets\\img\\index\\hu1.png"
     },
     {
-      "Id": "C:\\Users\\offic\\Documents\\Coding\\asp.net\\Portfolio-Website-HU-Y1A\\PortfolioWeb\\wwwroot\\img\\figures.png",
-      "PackagePath": "staticwebassets\\img\\figures.png"
+      "Id": "C:\\Users\\offic\\Documents\\Coding\\asp.net\\Portfolio-Website-HU-Y1A\\PortfolioWeb\\wwwroot\\img\\index\\lusthof1.png",
+      "PackagePath": "staticwebassets\\img\\index\\lusthof1.png"
+    },
+    {
+      "Id": "C:\\Users\\offic\\Documents\\Coding\\asp.net\\Portfolio-Website-HU-Y1A\\PortfolioWeb\\wwwroot\\img\\index\\smc1.png",
+      "PackagePath": "staticwebassets\\img\\index\\smc1.png"
+    },
+    {
+      "Id": "C:\\Users\\offic\\Documents\\Coding\\asp.net\\Portfolio-Website-HU-Y1A\\PortfolioWeb\\wwwroot\\img\\layout\\figures.png",
+      "PackagePath": "staticwebassets\\img\\layout\\figures.png"
     },
     {
       "Id": "C:\\Users\\offic\\Documents\\Coding\\asp.net\\Portfolio-Website-HU-Y1A\\PortfolioWeb\\wwwroot\\img\\vivi.jpg",
