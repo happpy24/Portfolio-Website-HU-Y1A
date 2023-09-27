@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "faNsYMfZ2BOajj78ONSufG9AtW+rhZ/7vXZ4VWFjIURAtwJgTYl7OsE5aTD/eOhvv577F+qNk+SUnI2noSdUig==",
+  "dgSpecHash": "v55V7FhWRebdyiXlnOOPHF7ekEXi5Ojhynlw/k0mlmkM6DVqjdOD0VSLP/oH0edkv5qemv6SCHLFt3noq3zKsQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\offic\\Documents\\CodeProjects\\dot.net\\Portfolio-Website-HU-Y1A\\PortfolioWeb\\PortfolioWeb.csproj",
+  "projectFilePath": "C:\\Users\\offic\\Documents\\Coding\\asp.net\\Portfolio-Website-HU-Y1A\\PortfolioWeb\\PortfolioWeb.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\offic\\.nuget\\packages\\microsoft.aspnetcore.mvc.razor.extensions\\6.0.22\\microsoft.aspnetcore.mvc.razor.extensions.6.0.22.nupkg.sha512",
     "C:\\Users\\offic\\.nuget\\packages\\microsoft.aspnetcore.mvc.razor.runtimecompilation\\6.0.22\\microsoft.aspnetcore.mvc.razor.runtimecompilation.6.0.22.nupkg.sha512",

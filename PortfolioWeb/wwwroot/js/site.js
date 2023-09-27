@@ -2,10 +2,12 @@
 // Changing these will change text and links!
 // All code written by h_24, open sourced for you!
 
+// NAME
+const myname = "vincent"
 // LOCATION
 document.getElementById('locationPutter').innerHTML = "The Hague, Netherlands";
 // EMAIL
-document.getElementById('emailPutter').innerHTML = "vivianspeijer@gmail.com";
+document.getElementById('emailPutter').innerHTML = `${myname}speijer@gmail.com`;
 // PHONE NUMBER
 document.getElementById('phonePutter').innerHTML = "+31 6 38734563";
 
