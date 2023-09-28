@@ -3,7 +3,7 @@
 // All code written by h_24, open sourced for you!
 
 // NAME
-const myname = "vincent"
+const myname = "vivian"
 // LOCATION
 document.getElementById('locationPutter').innerHTML = "The Hague, Netherlands";
 // EMAIL
@@ -11,6 +11,8 @@ document.getElementById('emailPutter').innerHTML = `${myname}speijer@gmail.com`;
 // PHONE NUMBER
 document.getElementById('phonePutter').innerHTML = "+31 6 38734563";
 
+
+// NAVBAR SCROLL WITH SCREEN
 $(function () {
     $(window).on('scroll', function () {
         if ($(window).scrollTop() > 10) {
@@ -21,9 +23,10 @@ $(function () {
     });
 });
 
+// DYNAMIC LINE ON SCROLL
 const scrollPath = document.getElementById('scroll-path');
 const lineLength = scrollPath.getTotalLength();
-let startOffset = 400;
+let startOffset = 420;
 let desiredCompletionPercentage = 100;
 let scrollPercentage = 0;
 var beegboximg = document.getElementsByClassName("beegbox-img");
@@ -42,10 +45,12 @@ window.addEventListener('scroll', () => {
         scrollPercentage = 0;
     }
 
+    // DYNAMIC CIRCLES POPPING IN ON LINE
+
     const scrollThresholds = {
         Home: [19.23, 45.21, 79.17],
-        About: [50, 65]
-        // Education: [],
+        About: [50, 63],
+        Education: [17, 40, 75]
         // Projects: [],
         // Contact: []
     };
@@ -63,14 +68,13 @@ window.addEventListener('scroll', () => {
             thresholds = scrollThresholds.About;
             desiredCompletionPercentage = 80;
             break;
-        //case pageTitle.includes("Education"):
-        //    thresholds = scrollThresholds.NewPage;
-        //    desiredCompletionPercentage = 90;
-        //    break;
-        // Add more cases for additional pages as needed
+        case pageTitle.includes("Education"):
+            thresholds = scrollThresholds.Education;
+            desiredCompletionPercentage = 100;
+            break;
     }
 
-    const classToRemove = Array.from({ length: 8 }, (_, index) => `scrollcircle${index + 1}`);
+    const classToRemove = Array.from({ length: 9 }, (_, index) => `scrollcircle${index + 1}`);
 
     $('.beegbox-img').removeClass(classToRemove.join(" "));
 
@@ -80,7 +84,7 @@ window.addEventListener('scroll', () => {
                 let classIndex = index + 1;
                 if (pageTitle.includes("About")) {
                     classIndex += 3;
-                } else if (pageTitle.includes("NewPage")) {
+                } else if (pageTitle.includes("Education")) {
                     classIndex += 5;
                 }
                 $('.beegbox-img').addClass(`scrollcircle${classIndex}`);

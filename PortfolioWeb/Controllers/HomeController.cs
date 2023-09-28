@@ -1,10 +1,6 @@
-﻿using PortfolioWeb.Models;
+﻿using Microsoft.AspNetCore.Mvc;
+using PortfolioWeb.Models;
 using System.Diagnostics;
-using Microsoft.AspNetCore.Mvc;
-using Microsoft.AspNetCore.Mvc.RazorPages;
-using System.Diagnostics;
-using System.Security.Cryptography;
-using System.Text;
 
 
 namespace PortfolioWeb.Controllers

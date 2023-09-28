@@ -187,7 +187,7 @@ CONTAINERS
 .description-text {
     top: 35%;
     font-size: 24px;
-    width: 50%;
+    width: 60%;
     height: 15%;
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.25);
 }
@@ -220,6 +220,10 @@ CONTAINERS
     height: calc(246vh - 10px)
 }
 
+.education-content {
+    height: calc(255vh - 10px)
+}
+
 .index-line-container {
     position: absolute;
     top: -2%;
@@ -231,6 +235,14 @@ CONTAINERS
 .about-line-container {
     position: absolute;
     top: 6%;
+    left: 14.45%;
+    right: 14.45%;
+    height: auto;
+}
+
+.education-line-container {
+    position: absolute;
+    top: 5%;
     left: 14.45%;
     right: 14.45%;
     height: auto;
@@ -276,7 +288,7 @@ CONTAINERS
 
 .beegbox-img {
     position: absolute;
-    transition: width 0.5s;
+    transition: width 0.2s;
     transition-timing-function: ease-in-out;
     text-align: center;
     top: -10%;
@@ -297,6 +309,20 @@ CONTAINERS
             text-align: center;
         }
 
+.lusthof-ed {
+    top: 15%;
+    left: 30%;
+}
+
+    .lusthof-ed .beegbox-img {
+        left: -82%;
+    }
+
+        .lusthof-ed .beegbox-img.scrollcircle6 {
+            width: 70%;
+            text-align: center;
+        }
+
 .smc {
     top: 48%;
     right: 33%;
@@ -310,6 +336,20 @@ CONTAINERS
             width: 70%;
         }
 
+.smc-ed {
+    top: 41%;
+    right: 35%;
+    text-align: right;
+}
+
+    .smc-ed .beegbox-img {
+        right: -98.5%;
+    }
+
+        .smc-ed .beegbox-img.scrollcircle7 {
+            width: 70%;
+        }
+
 .hu {
     top: 76%;
     left: 25%;
@@ -320,6 +360,19 @@ CONTAINERS
     }
 
         .hu .beegbox-img.scrollcircle3 {
+            width: 70%;
+        }
+
+.hu-ed {
+    top: 70%;
+    left: 30%;
+}
+
+    .hu-ed .beegbox-img {
+        left: -82%;
+    }
+
+        .hu-ed .beegbox-img.scrollcircle8 {
             width: 70%;
         }
 
@@ -388,27 +441,38 @@ CONTAINERS
         width: 10%;
     }
 
-.bullet-list {
+.bullet-title {
+    font-size: 40px;
+    text-align: center;
+    width: 50vw;
     position: absolute;
-    top: 10%;
-    left: 10%;
-    font-size: 24px;
-    line-height: 30px;
-    text-align: right;
+    top: 4%;
 }
 
-.bullet-item {
-    position: absolute;
+.bullet-list {
+    position: relative;
+    font-size: 24px;
+    top: 12vh;
+    left: 8vw;
+    line-height: 3;
+    text-align: right;
+    list-style-type: none;
 }
 
 .bullet-points {
-    position: absolute;
-    top: 10%;
-    left: 10%;
+    position: relative;
+    left: 26vw;
+    height: 24rem;
+    top: -32vh;
 }
 
+.coming-soon {
+    bottom: 5vh;
+}
 
-/* FOOTER */
+/* 
+    FOOTER 
+*/
 
 .footer-dark {
     padding: 50px 500px;
