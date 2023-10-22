@@ -5,11 +5,11 @@
 // NAME
 const myname = "vivian"
 // LOCATION
-document.getElementById('locationPutter').innerHTML = "The Hague, Netherlands";
+document.getElementById('locationPutter').innerHTML = "The Hague, Netherlands ";
 // EMAIL
-document.getElementById('emailPutter').innerHTML = `${myname}speijer@gmail.com`;
+document.getElementById('emailPutter').innerHTML = `${myname}speijer@gmail.com `;
 // PHONE NUMBER
-document.getElementById('phonePutter').innerHTML = "+31 6 38734563";
+document.getElementById('phonePutter').innerHTML = "+31 6 38734563 ";
 
 
 // NAVBAR SCROLL WITH SCREEN
