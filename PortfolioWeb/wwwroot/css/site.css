@@ -7,6 +7,7 @@ html {
 
 body {
     background-color: #1E1E1E;
+    width: 99.20vw;
 }
 
 * {
@@ -222,6 +223,10 @@ CONTAINERS
 
 .education-content {
     height: calc(255vh - 10px)
+}
+
+.contact-content {
+    height: calc(255vh - 10px);
 }
 
 .index-line-container {

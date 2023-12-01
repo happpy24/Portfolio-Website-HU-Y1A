@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "lGG4xoAkEX71a7t8a0xwvHYk4G5UtW2q6s1OXkaW+b9qdmUAd+Vkju4ku452vtLsUqm27/+Td0/hTvYh4LvQvA==",
+  "dgSpecHash": "HokTiMRCR4XsLyLypkRovViv9pc55X4cxjiKvFGcaCfNyl7LAPSNVJ4RvrZyl9gxEcQ/ameDk1wcJb5bVgdvtQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\offic\\Documents\\CodeProjects\\dot.net\\Portfolio-Website-HU-Y1A\\PortfolioWeb\\PortfolioWeb.csproj",
+  "projectFilePath": "C:\\Users\\offic\\Documents\\Coding\\asp.net\\Portfolio-Website-HU-Y1A\\PortfolioWeb\\PortfolioWeb.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\offic\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\offic\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",
